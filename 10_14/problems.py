@@ -42,8 +42,8 @@ def create_circular_linked_list():
 
 #######FIND INTERSECTION ###############
 def find_intersection(head_1, head_2):
-    while head_2:
-        temp = head_1
+    while head_2: #99
+        temp = head_1 
         while temp:
             if temp == head_2:
                 return head_2
@@ -65,6 +65,10 @@ def loop_detection(node_1):
         current = current.next
     
     return None
+
+
+#  A = 3 ➔ 7 ➔ 8 ➔ 10
+#  B = 99 ➔ 1 ➔ 8 ➔ 10
     
     
 
